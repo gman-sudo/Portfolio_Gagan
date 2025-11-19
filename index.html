@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Gaganmanohar T — Portfolio</title>
+    <meta name="description"
+        content="Gaganmanohar T — Full-stack developer. Portfolio showcasing projects, skills, and contact info." />
+    <meta name="author" content="Gaganmanohar T" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:title" content="Gaganmanohar T — Portfolio" />
+    <meta property="og:description"
+        content="Full-stack developer. Portfolio showcasing projects, skills, and contact info." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Gaganmanohar T",
+    "url": "https://your-site.example.com",
+    "sameAs": ["https://github.com/yourusername","https://www.linkedin.com/in/yourusername"],
+    "jobTitle": "Full-stack Developer",
+    "description": "Full-stack developer. Portfolio showcasing projects, skills, and contact info."
+  }
+  </script>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:,">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#hero">Gaganmanohar T</a>
+            <nav class="nav" aria-label="Primary">
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#about">About</a>
+                <a href="#contact" class="cta">Contact</a>
+                <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section id="hero" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <h1>Hi — I’m <span class="accent">Gaganmanohar</span>.</h1>
+                    <p class="lead">Full-stack developer building accessible, high-performance web apps. I like clean
+                        UI, solid API design, and automation.</p>
+                    <p class="hero-actions">
+                        <a class="btn" href="#projects">View projects</a>
+                        <a class="btn ghost" href="resume.pdf" download>Download Resume</a>
+                    </p>
+                    <p class="meta">
+                        Location: India • Available for freelance & full-time
+                    </p>
+                </div>
+                <div class="hero-image" aria-hidden="true">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900&q=80&auto=format&fit=crop"
+                        alt="Work desk with laptop" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Selected Projects</h2>
+                <p class="section-sub">A few projects that show what I build — frontends, APIs, and systems.</p>
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Project cards: duplicate and edit -->
+                    <article class="card">
+                        <img class="card-img"
+                            src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&q=60&auto=format&fit=crop"
+                            alt="Project screenshot">
+                        <div class="card-body">
+                            <h3 class="card-title">Project One</h3>
+                            <p class="card-desc">Brief description — what it does, tech used, and impact.</p>
+                            <p class="card-tags">React · Node · PostgreSQL</p>
+                            <p class="card-links">
+                                <a href="#" target="_blank" rel="noopener">Live</a> ·
+                                <a href="#" target="_blank" rel="noopener">Source</a>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img class="card-img"
+                            src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&q=60&auto=format&fit=crop"
+                            alt="Project screenshot">
+                        <div class="card-body">
+                            <h3 class="card-title">Project Two</h3>
+                            <p class="card-desc">Brief description — focus on problem solved and results.</p>
+                            <p class="card-tags">Next.js · Vercel · FaunaDB</p>
+                            <p class="card-links">
+                                <a href="#" target="_blank" rel="noopener">Live</a> ·
+                                <a href="#" target="_blank" rel="noopener">Source</a>
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Add more cards as needed -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid" aria-hidden="false">
+                    <div class="skill">
+                        <h4>Frontend</h4>
+                        <p>HTML, CSS, JavaScript, React, Next.js, Tailwind</p>
+                    </div>
+                    <div class="skill">
+                        <h4>Backend</h4>
+                        <p>Node.js, Express, FastAPI, PostgreSQL, MongoDB</p>
+                    </div>
+                    <div class="skill">
+                        <h4>DevOps / Tools</h4>
+                        <p>Docker, GitHub Actions, Vercel, AWS (S3, Lambda)</p>
+                    </div>
+                    <div class="skill">
+                        <h4>Other</h4>
+                        <p>Testing, Accessibility, Design Systems, CI/CD</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container about-grid">
+                <div>
+                    <h2>About me</h2>
+                    <p>I’m a developer who enjoys turning ideas into fast, maintainable products. I’ve worked on
+                        automation, web apps, and developer tooling. Outside of code I enjoy long-distance running and
+                        calisthenics.</p>
+                    <ul>
+                        <li>3+ years professional experience</li>
+                        <li>Open-source contributor</li>
+                        <li>Looking for roles in full-stack development</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Quick facts</h3>
+                    <dl>
+                        <dt>Email</dt>
+                        <dd><a href="mailto:you@example.com">you@example.com</a></dd>
+                        <dt>Location</dt>
+                        <dd>India</dd>
+                        <dt>Resume</dt>
+                        <dd><a href="resume.pdf" download>Download PDF</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section bg-accent">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Interested in working together? Send a quick message.</p>
+
+                <!-- Simple mailto fallback + optional Formspree integration -->
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                    <label>
+                        <span>Full name</span>
+                        <input type="text" name="name" required>
+                    </label>
+                    <label>
+                        <span>Email</span>
+                        <input type="email" name="_replyto" required>
+                    </label>
+                    <label>
+                        <span>Message</span>
+                        <textarea name="message" rows="6" required></textarea>
+                    </label>
+                    <div class="form-actions">
+                        <button type="submit" class="btn">Send</button>
+                        <button type="button" id="mailto-btn" class="btn ghost">Open email</button>
+                    </div>
+                    <input type="hidden" name="_subject" value="Portfolio contact from website">
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Gaganmanohar T · <a href="https://github.com/yourusername" target="_blank"
+                    rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/yourusername" target="_blank"
+                    rel="noopener">LinkedIn</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
